@@ -2,9 +2,9 @@
 This repo created to store spring boot app to create there Image using Dockerfile or direct by mvn inbuilt command.
 
 
-Case 1: Create image using Dockerfile 
+Case 1: Create docker image using Dockerfile 
 
-**command : docker build . -t "<Image Name>" **
+**command : docker build . -t [Docker Image Name ]  **
   
 Case 2: Create docker image without using docker file (Spring boot support inbuild Docker so run below command)
   
