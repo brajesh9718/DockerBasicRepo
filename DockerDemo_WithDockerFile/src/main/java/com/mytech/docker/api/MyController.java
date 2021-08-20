@@ -1,4 +1,4 @@
-package com.mytech.docker;
+package com.mytech.docker.api;
 
 import org.springframework.stereotype.Controller;
 import org.springframework.web.bind.annotation.RequestMapping;
