@@ -18,7 +18,7 @@ Case 3: Run Build Docker Image
 
 Case 4: Browse service using url 
   
-  URI :  https://<docker-machine-ip>:<image/container-port>/api
+     URI :  https://<docker-machine-ip>:<image/container-port>/api
   
   HINT: [when you start docker machine by docker tool it look like below ]
   
