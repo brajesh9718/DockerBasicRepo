@@ -1,0 +1,41 @@
+1.Check Docker version
+  cmd>docker version 
+
+2.Build Docker Image from a Dockerfile
+  cmd>docker build -t image-name docker-file-location
+
+3.Run Docker Image
+  cmd>docker run -d image-name 
+
+4.Check available Docker images
+  cmd>docker images
+
+5.Check for latest running container
+  cmd>docker ps -l
+
+6.Check all running containers
+  cmd>docker ps -a
+
+7.Stop running container
+  cmd>docker stop container_id 
+
+8.Delete an image
+  cmd>docker rmi image-name
+
+9.Delete all images
+  cmd>docker rmi $(docker images -q)
+
+10.Delete all images forcefully
+   cmd>docker rmi -r $(docker images -q)
+
+11.Delete all containers
+   cmd>docker rm $(docker ps -a -q)
+
+12.Enter into Docker container
+   cmd>docker exec -it container-id bash
+ 
+
+
+
+
+
