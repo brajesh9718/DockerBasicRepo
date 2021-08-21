@@ -33,6 +33,17 @@
 
 12.Enter into Docker container
    cmd>docker exec -it container-id bash
+   
+   
+13.Tag your image to push in docker cloud/hub(Either you can build to push or tag to push )
+   cmd>docker build -t yourhubusername/<image-name>:tagName
+	
+	OR
+
+   cmd>docker tag yourhubusername/<image-name>:tagName
+
+14.Push your image to the repository you created
+   cmd>docker push yourhubusername/<image-name>:tagName   
  
 
 
