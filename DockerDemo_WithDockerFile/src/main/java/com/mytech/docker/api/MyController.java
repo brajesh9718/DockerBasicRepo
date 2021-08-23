@@ -9,8 +9,8 @@ public class MyController {
 
 	
 	@ResponseBody
-	@RequestMapping("/index")
+	@RequestMapping("/dockerCall")
 	public String index() {		
-		return "Hello Docker................!!!!";
+		return "Hello Docker................!!!!!";
 	}
 }
