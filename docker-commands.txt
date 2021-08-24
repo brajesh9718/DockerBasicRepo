@@ -27,24 +27,30 @@
 
 10.Delete all images forcefully
    cmd>docker rmi -r $(docker images -q)
+   
+11.Stop running container
+  cmd>docker stop container_id    
+   
+12.Stop all the running container
+   cmd> docker stop $(docker ps -a -q)
 
-11.Delete all containers
+13.Delete all containers
    cmd>docker rm $(docker ps -a -q)
 
-12.Enter into Docker container
+14.Enter into Docker container
    cmd>docker exec -it container-id bash
    
    
-13.Tag your image to push in docker cloud/hub(Either you can build to push or tag to push )
+15.Tag your image to push in docker cloud/hub(Either you can build to push or tag to push )
    cmd>docker build -t yourhubusername/<image-name>:tagName
 	
 	OR
 
    cmd>docker tag yourhubusername/<image-name>:tagName
 
-14.Push your image to the repository you created
+16.Push your image to the repository you created
    cmd>docker push yourhubusername/<image-name>:tagName   
 
 
-15.Pull Docker Image from Docker Hub
+17.Pull Docker Image from Docker Hub
    cmd>docker pull yourhubusername/<image-repo>:tag
